@@ -15,36 +15,40 @@ In this lab we will be utilzing a PowerShell script to create 10000 users in Act
 - <b>Windows 10</b> (21H2)
 - <b>Windows Server 2019</b>
 
-<h2>Program walk-through:</h2>
+<h2>Lab walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://imgur.com/a/OjvC7HS.png" %" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Save AD_PS-master zip to server desktop: <br/>
+<img src="https://imgur.com/7pixq7h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Open PowerSell ISE as administrator and open 1_CREATE_USERS file:  <br/>
+<img src="https://imgur.com/z1te4JC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+In order for program to run, we must run the Set-ExecutionPolicy Unrestricted and click "Yes to All": <br/>
+<img src="https://imgur.com/u3t1sZ8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Navigate to approtiate directory where file was saved:  <br/>
+<img src="https://imgur.com/R3BwlJx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Run the script and select "Run Once":  <br/>
+<img src="https://imgur.com/LWgTTDt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The PowerShell command will comeplete and you will be able to open Active Directory Users and Computers to check:  <br/>
+<img src="https://imgur.com/RjOfDyX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+We can then login to our connected Windows VM as any randomly selected user from the list (Default Password: Password1):  <br/>
+<img src="https://imgur.com/ilgymlI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Here we can confirm that we are logged in as "acoke" in "mydomain" which is the domain we crated:  <br/>
+<img src="https://imgur.com/9EwlaJ9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 
 <!--
  ```diff
