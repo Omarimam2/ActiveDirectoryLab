@@ -1,4 +1,4 @@
-<h1>Active Directry - Mass User Creation Lab </h1>
+<h1>Active Directory - Mass User Creation Lab </h1>
 
 <h2>Description</h2>
 In this lab we will be utilzing a PowerShell script to create 10000 users in Active Directory. We will assume that the server and client have already been initialized  and ready to use. For this specific setup, I will be using Oracle Virtualbox to run the Virtual Machines and to set up our Domain Controller. We will also install server 2019 on this Virtual Machine and install Active Directory to create our domain. I will then be using another Virtual Machine and installing Windows 10. We will ensure that the Windows 10 VM is able to connect to the domain and has the ability login to any random user we have created. 
