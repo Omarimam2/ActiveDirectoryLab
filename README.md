@@ -22,8 +22,20 @@ Go into Server Manager and add roles and features: <br/>
 <img src="https://i.imgur.com/Jgfo1hQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br /> 
-Select Active Directory Domain Services: <br/>
+Select Active Directory Domain Services and conintue to the next steps with the default options: <br/>
 <img src="https://i.imgur.com/P0HXPZg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Once completed, we will go on to the post deployment configurations by selecting "promote this server to a domain controller" : <br/>
+<img src="https://i.imgur.com/dtJ7vHh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br /> 
+Select Add a new forest and create your domain name which in this case will be mydomain.com : <br/>
+<img src="https://i.imgur.com/YadzV3S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br /> 
+Go into "Active Directory Users and Computers" and create an Organization Unit to put the ADMIN account  inside of : <br/>
+<img src="https://i.imgur.com/rLTvfKx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br /> 
 Save AD_PS-master zip to server desktop: <br/>
