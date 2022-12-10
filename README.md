@@ -18,6 +18,14 @@ In this lab we will be utilzing a PowerShell script to create 10000 users in Act
 <h2>Lab walk-through:</h2>
 
 <p align="center">
+Go into Server Manager and add roles and features: <br/>
+<img src="https://imgur.com/7pixq7h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br /> 
+Select Active Directory Domain Services: <br/>
+<img src="https://imgur.com/P0HXPZg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br /> 
 Save AD_PS-master zip to server desktop: <br/>
 <img src="https://imgur.com/7pixq7h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
