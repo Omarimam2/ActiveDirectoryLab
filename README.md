@@ -23,7 +23,7 @@ Go into Server Manager and add roles and features: <br/>
 <br />
 <br /> 
 Select Active Directory Domain Services: <br/>
-<img src="https://imgur.com/P0HXPZg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/P0HXPZg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br /> 
 Save AD_PS-master zip to server desktop: <br/>
