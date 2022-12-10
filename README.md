@@ -18,7 +18,7 @@ In this lab we will be utilzing a PowerShell script to create 10000 users in Act
 <h2>Lab walk-through:</h2>
 
 <p align="center">
-Go into Server Manager and add roles and features: <br/>
+Go into Server Manager and add Roles and Features: <br/>
 <img src="https://i.imgur.com/Jgfo1hQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br /> 
